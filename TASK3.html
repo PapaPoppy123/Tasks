@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Reservation Form</title>
+<style>
+
+body { background-color:lightgray; }
+h1 { color:red; }
+table { background-color:lightblue; }
+
+</style>
+</head>
+
+<body>
+<center>
+
+<h1>Continental Hotel Reservation Form</h1>
+
+<form>
+
+<table border="3" cellpadding="10">
+
+<tr>
+	<th>Name</th>
+		<td>
+        	 <input type="text" placeholder="Enter your name">
+    		</td>
+</tr>
+
+<tr>
+	<th>eMail</th>
+    		<td>
+        	 <input type="email" value="info@continental.pk">
+    		</td>
+</tr>
+
+<tr>
+    	<th>Mobile No</th>
+   		<td>
+        	 <input type="number" placeholder="Enter your cell number">
+    		</td>
+</tr>
+
+<tr>
+    	<th>Arrival Time</th>
+    		<td>
+        	 <input type="time">
+    		</td>
+</tr>
+
+<tr>
+    	<th>Departure</th>
+    		<td>
+        	 <input type="date">
+        	 <input type="time">
+    		</td>
+</tr>
+
+<tr>
+    	<th>Room Type</th>
+    		<td>
+        	 <input type="radio" name="room">Single
+        	 <input type="radio" name="room">Double
+        	  <br>
+        	 <input type="radio" name="room">Presidential Suite
+    		</td>
+</tr>
+
+<tr>
+    	<th>Preferences</th>
+    		<td>
+        	 <input type="checkbox">Non-Smoking <br>
+        	 <input type="checkbox">Internet <br>
+        	 <input type="checkbox">Firm Mattress
+    		</td>
+</tr>
+
+<tr>
+    	<th>Mode of Payment</th>
+    		<td>
+        	 <input type="radio" name="payment">Cash
+        	 <input type="radio" name="payment">Check
+        	  <br>
+        	 <input type="radio" name="payment">Credit Card
+
+        	 <select>
+            		<option>Select Card</option>
+           	 	<option>Meezan</option>
+            		<option>HBL</option>
+            		<option>Dubai Islamic</option>
+            		<option>Askari Bank</option>	
+        	 </select>
+    		</td>
+</tr>
+
+<tr>
+    		<td colspan="2" align="center">
+        	 <input type="submit" value="Send Data">
+    		</td>
+</tr>
+
+</table>
+
+</form>
+</center>
+
+</body>
+</html>

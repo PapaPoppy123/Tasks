@@ -1,0 +1,71 @@
+body{
+    background-image: url('wallpaper.jpg');
+    font-family: Arial, sans-serif;
+}
+
+#container{
+    padding: 5px ;
+    background-color: white;
+    width:900px;
+    margin:auto;
+}
+
+#header{
+    color: teal ;
+    border:3px solid white;
+    padding:10px;
+    margin:10px;
+    text-align:right;
+    background-color:#bdeeee;
+    font-weight:bold;
+}
+
+#friends{
+    color: teal ;
+    width:180px;
+    float:left;
+    border:5px solid teal;
+    background-color:#48d1cc;
+    padding:10px;
+    margin:10px;
+}
+
+.entry{
+    color:teal ;
+    margin-right:10px;
+    margin-left:230px;
+    margin-bottom:20px;
+    padding:15px;
+    border:5px solid #bdeeee;
+    background-color:rgb(224, 241, 255);
+    font-family:Verdana;
+}
+
+.entry h2{
+    font-weight:bold;
+}
+
+.date{
+    font-weight:bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: teal;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 5px;
+}
+
+.entry-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+.entry-meta p {
+    color:rgb(255, 122, 145) ;
+}
+
+.entry-meta img {
+    width: 180px;
+    max-width: 50%;
+    height: auto;
+}
