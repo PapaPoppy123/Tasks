@@ -69,3 +69,20 @@ body{
     max-width: 50%;
     height: auto;
 }
+
+.form-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid teal;
+    background-color: #48d1cc;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form-button:hover,
+.form-button:focus-visible {
+    background-color: teal;
+}
